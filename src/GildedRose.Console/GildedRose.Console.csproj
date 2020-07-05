@@ -41,6 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Item\BaseItem.cs" />
+    <Compile Include="Classes\Item\IItem.cs" />
+    <Compile Include="Classes\Item\Item.cs" />
+    <Compile Include="Classes\Item\ItemTypes\ConjuredItem.cs" />
+    <Compile Include="Classes\Item\ItemTypes\ExclusiveItem.cs" />
+    <Compile Include="Classes\Item\ItemTypes\FancyItem.cs" />
+    <Compile Include="Classes\Item\ItemTypes\LegendaryItem.cs" />
+    <Compile Include="Classes\Item\ItemTypes\NormalItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -48,6 +56,7 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
